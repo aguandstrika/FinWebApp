@@ -1,0 +1,1 @@
+$.getjson('https://api.polygon.io/v1/meta/symbols/AAPL/company?&apiKey=fuckyou')
