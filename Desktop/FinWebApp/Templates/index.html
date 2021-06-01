@@ -4,9 +4,11 @@
 
 {% block bodyCon %}
 <h1>page 1 </h1>
-<div class="mb-1" method="get">
+<!--https://api.polygon.io/v1/meta/symbols/AAPL/company?&apiKey=fuckyou-->>
+<form method="post" id="sheetdb-form" action="https://sheetdb.io/api/v1/58f61be4dda40">
     <label for="exampleFormControlInput1" class="form-label">Stock ticker</label>
     <input type="search" class="form-control" id="exampleFormControlInput1" placeholder="GME...">
     <input type=submit value=search>
-</div>
+    <button type="submit">Submit</button>
+</form>
 {% endblock %}
